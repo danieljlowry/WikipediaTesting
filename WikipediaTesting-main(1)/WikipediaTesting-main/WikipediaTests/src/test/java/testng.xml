@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="WikiSuite" verbose="1" preserve-order="true">
+    <test name="WikiTest">
+        <classes>
+            <class name="org.example.LoginTest"/>
+            <class name="org.example.EnglishHomePageTest"/>
+            <class name="org.example.ArticleTest"/>
+            <class name="org.example.PreferencesTest"/>
+            <class name="org.example.EditingTest"/>
+            <class name="org.example.AccessibilityTest"/>
+            <class name="org.example.HistoryTest"/>
+            <class name="org.example.MiscellaneousTest"/>
+        </classes>
+    </test>
+</suite>
